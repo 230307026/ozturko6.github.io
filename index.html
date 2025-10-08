@@ -1,0 +1,175 @@
+
+<!doctype html>
+<html lang="tr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Turkotech - Bilişim Çözümleri | Ankara</title>
+		<meta name="description" content="Turkotech — Ankara merkezli bilişim ve teknoloji hizmetleri. Web, yazılım, ağ ve destek çözümleri." />
+		<meta property="og:title" content="Turkotech - Bilişim Çözümleri | Ankara" />
+		<meta property="og:description" content="Ankara merkezli Turkotech; web, yazılım, ağ ve teknik destek hizmetleri sunar." />
+		<meta property="og:type" content="website" />
+		<meta name="theme-color" content="#0b66d4" />
+
+		<style>
+			:root{
+				--blue-600:#0b66d4;
+				--blue-700:#0957b0;
+				--white: #ffffff;
+				--glass: rgba(255,255,255,0.06);
+				--card-bg: rgba(255,255,255,0.08);
+				--max-width: 1000px;
+				font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+			}
+			html,body{height:100%;}
+			body{
+				margin:0;min-height:100%;
+				background:linear-gradient(180deg,var(--blue-600),var(--blue-700));
+				color:var(--white);
+				-webkit-font-smoothing:antialiased;
+				-moz-osx-font-smoothing:grayscale;
+				display:flex;align-items:center;justify-content:center;padding:40px 20px;
+			}
+			.wrap{width:100%;max-width:var(--max-width);}
+
+			header{
+				display:flex;align-items:center;justify-content:space-between;margin-bottom:28px;
+			}
+			.brand{display:flex;align-items:center;gap:12px;}
+			.logo{width:52px;height:52px;border-radius:10px;background:var(--white);display:flex;align-items:center;justify-content:center;color:var(--blue-700);font-weight:700;font-size:20px}
+			h1{margin:0;font-size:28px;letter-spacing:0.2px}
+			p.lead{margin:6px 0 0;color:rgba(255,255,255,0.92)}
+
+			main{display:grid;grid-template-columns:1fr 360px;gap:28px;align-items:start}
+			.hero{background:linear-gradient(180deg, rgba(255,255,255,0.04), transparent);padding:28px;border-radius:14px;backdrop-filter: blur(6px);}
+			.hero h2{margin-top:0;font-size:22px}
+			.features{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px}
+			.feature{background:var(--card-bg);padding:12px 14px;border-radius:10px;min-width:140px}
+
+			.contact-card{background:rgba(255,255,255,0.06);padding:20px;border-radius:12px;border:1px solid rgba(255,255,255,0.06)}
+			.contact-card h3{margin:0 0 8px}
+			.contact-row{display:flex;gap:8px;align-items:center;margin:8px 0}
+			.muted{opacity:0.9;font-size:14px}
+			a.cta{display:inline-block;margin-top:12px;padding:10px 14px;border-radius:8px;background:var(--white);color:var(--blue-700);font-weight:600;text-decoration:none}
+
+			footer{margin-top:20px;color:rgba(255,255,255,0.8);font-size:13px;text-align:center}
+
+			/* decorative white motifs */
+			.motif-top{position:fixed;right:-80px;top:-60px;opacity:0.12;pointer-events:none}
+			.motif-bottom{position:fixed;left:-120px;bottom:-80px;opacity:0.08;pointer-events:none}
+
+			@media (max-width:880px){
+				main{grid-template-columns:1fr;}
+				.logo{width:44px;height:44px;font-size:18px}
+			}
+		</style>
+
+		<script type="application/ld+json">
+		{
+			"@context":"https://schema.org",
+			"@type":"LocalBusiness",
+			"name":"Turkotech",
+			"image":"",
+			"@id":"",
+			"url":"",
+			"telephone":"+90 312 555 01 23",
+			"address":{
+				"@type":"PostalAddress",
+				"streetAddress":"Atatürk Bulvarı No:100",
+				"addressLocality":"Kızılay, Çankaya",
+				"addressRegion":"Ankara",
+				"postalCode":"06420",
+				"addressCountry":"TR"
+			},
+			"description":"Turkotech - Ankara merkezli bilişim ve teknoloji hizmetleri. Web geliştirme, yazılım, ağ altyapıları ve teknik destek."
+		}
+		</script>
+	</head>
+	<body>
+		<svg class="motif-top" width="420" height="220" viewBox="0 0 420 220" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+			<circle cx="60" cy="60" r="50" fill="white" />
+			<circle cx="160" cy="40" r="20" fill="white" />
+			<rect x="260" y="10" width="120" height="120" rx="20" fill="white" />
+		</svg>
+
+		<svg class="motif-bottom" width="520" height="280" viewBox="0 0 520 280" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+			<rect x="20" y="40" width="200" height="200" rx="28" fill="white" />
+			<circle cx="380" cy="180" r="80" fill="white" />
+		</svg>
+
+		<div class="wrap">
+			<header>
+				<div class="brand">
+					<div class="logo">T</div>
+					<div>
+						<h1>Turkotech</h1>
+						<p class="lead">Ankara merkezli bilişim çözümleri — web, yazılım, ağ ve destek</p>
+					</div>
+				</div>
+				<nav aria-label="site">
+					<a href="#contact" class="cta">İletişim</a>
+				</nav>
+			</header>
+
+			<main>
+				<section class="hero" aria-labelledby="services-title">
+					<h2 id="services-title">Profesyonel teknoloji hizmetleri</h2>
+					<p class="muted">Turkotech olarak küçük ve orta ölçekli işletmelere güvenilir ve ölçeklendirilebilir teknoloji çözümleri sağlıyoruz. Projelerimizde şeffaflık, zamanında teslim ve sürdürülebilir destek önceliğimizdir.</p>
+
+					<div class="features" aria-hidden>
+						<div class="feature">
+							<strong>Web Geliştirme</strong>
+							<div class="muted">Modern, hızlı ve SEO uyumlu web siteleri.</div>
+						</div>
+						<div class="feature">
+							<strong>Yazılım Çözümleri</strong>
+							<div class="muted">İş süreçlerinize özel uygulamalar.</div>
+						</div>
+						<div class="feature">
+							<strong>Ağ & Altyapı</strong>
+							<div class="muted">Güvenli ve yönetilebilir ağ altyapıları.</div>
+						</div>
+						<div class="feature">
+							<strong>Teknik Destek</strong>
+							<div class="muted">Uzaktan veya yerinde destek hizmetleri.</div>
+						</div>
+					</div>
+
+					<p style="margin-top:18px;">Referans, teklif veya hızlı bir görüşme için bize ulaşın. Ankara içi yerinde ziyaret talepleri için uygun zamanları planlıyoruz.</p>
+				</section>
+
+				<aside id="contact" class="contact-card" aria-labelledby="contact-title">
+					<h3 id="contact-title">İletişim - Ankara</h3>
+					<div class="contact-row">
+						<strong>Adres</strong>
+						<div class="muted">Atatürk Bulvarı No:100, Kızılay, Çankaya, Ankara</div>
+					</div>
+					<div class="contact-row">
+						<strong>Telefon</strong>
+						<div><a href="tel:+903125550123" style="color:var(--white);text-decoration:underline">+90 312 555 01 23</a></div>
+					</div>
+					<div class="contact-row">
+						<strong>E-posta</strong>
+						<div><a href="mailto:info@turkotech.com.tr" style="color:var(--white);text-decoration:underline">info@turkotech.com.tr</a></div>
+					</div>
+
+					<div style="margin-top:10px">
+						<a class="cta" href="mailto:info@turkotech.com.tr">Teklif İste</a>
+					</div>
+
+					<hr style="border:none;border-top:1px solid rgba(255,255,255,0.06);margin:14px 0" />
+					<div class="muted" style="font-size:13px">Çalışma Saatleri: Pazartesi - Cuma, 09:00 - 18:00</div>
+					<div style="margin-top:10px;font-size:13px"><a href="https://www.google.com/maps/search/Ankara+Kızılay" target="_blank" rel="noopener noreferrer" style="color:var(--white);text-decoration:underline">Haritada Gör</a></div>
+				</aside>
+			</main>
+
+			<footer>
+				&copy; <span id="year"></span> Turkotech — Tüm hakları saklıdır. • <span class="muted">Ankara, Türkiye</span>
+			</footer>
+		</div>
+
+		<script>
+			document.getElementById('year').textContent = new Date().getFullYear();
+		</script>
+	</body>
+</html>
